@@ -21,12 +21,12 @@
             navbar.classList.remove('open');
 
             navbar.classList.add('navbar-fixed');
-            main.style.cssText = "marging-top: " + alturaNavbar + "px;";
+            main.style.cssText = 'marging-top: ' + alturaNavbar + "px;";
             isFixed = true;
 
         } else if (windowPos < breakpoint && isFixed) {
             navbar.classList.remove('navbar-fixed');
-            main.style.cssText = "marging-top: " + 0;
+            main.style.cssText = 'marging-top: ' + 0;
             isFixed = false;
         }
     }
